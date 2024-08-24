@@ -1,0 +1,45 @@
+
+
+[data-theme="light"] {
+  --box-background-color: #f3f3f3; 
+  --box-text-color: #000;       
+}
+
+.tab-box {
+  color: var(--box-text-color);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+
+.grid-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+  
+  .list-flex {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .grid-flex {
+      margin-top: 1rem;
+    }
+    .tabPanel {
+      padding: 0.2rem !important;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .list-flex {
+      width: 100%;
+    }
+  }
+
+   
+  

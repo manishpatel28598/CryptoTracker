@@ -1,0 +1,5 @@
+[data-theme="light"] {
+    --box-background-color: #f3f3f3; 
+    --box-text-color: #000; 
+    --box-border-color: #222;      
+  }

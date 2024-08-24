@@ -1,0 +1,13 @@
+[data-theme="light"] {
+  --box-background-color: #f3f3f3; 
+  --box-text-color: #000; 
+  --box-border-color: #000;      
+}
+
+
+.select-days {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+  }
